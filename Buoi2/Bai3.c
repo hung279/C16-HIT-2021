@@ -11,8 +11,7 @@ int main()
     scanf("%d",&m);
     //Vi chan > 4 la tu 6 tro len va le > 5 tu 7 tro len nen DK chung la n > 5
     if (n > 5) {
-        
-    	if (n % 2 == 0) {
+if (n % 2 == 0) {
         	printf("so tien Hung phai tra: %.0f ", m * n * 0.85);
         }
         
